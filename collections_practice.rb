@@ -39,8 +39,6 @@ end
 
 def kesha_maker(array)
   array.each do |letter|
-    if letter.length == 3
-      return $
+    letter[2] = "$"
     end
-  end
 end
