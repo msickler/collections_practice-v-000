@@ -44,5 +44,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find { |letter| letter.start_with?("a")}
+  array.find_all { |letter| letter.start_with?("a")}
 end
