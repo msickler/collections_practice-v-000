@@ -36,3 +36,11 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  array.each do |letter|
+    if letter.length == 3
+      return $
+    end
+  end
+end
