@@ -22,7 +22,7 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-    if a.first
+    if a.first?
       0
     elsif a < b
       -1
