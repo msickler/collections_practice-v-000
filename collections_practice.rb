@@ -50,3 +50,11 @@ end
 def sum_array(array)
   array.inject {|sum, a| sum + a }
 end
+
+def add_s(array)
+  array.each_with_index.collect do |a, index| 
+    if index != 1
+      "s" << a 
+    end
+  end
+end
