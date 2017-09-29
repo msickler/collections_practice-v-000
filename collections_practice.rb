@@ -55,6 +55,8 @@ def add_s(array)
   array.each_with_index.collect do |a, index|
     if index != 1
       a << "s"
+    else index = 1
+      a
     end
   end
 end
